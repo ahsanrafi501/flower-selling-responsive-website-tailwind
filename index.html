@@ -261,34 +261,56 @@
         </section>
 
         <section>
-            <div class="bg-[url('./assets/news-letter-bg.png')] bg-cover bg-no-repeat">
-                <h2 class="noto-serifß pt-[110px] text-center text-[25px] text-[#FFFFFF] font-bold mb-[23px]">Join the colorful Bunch</h2>
+            <div class="bg-[url('./assets/news-letter-bg.png')] bg-cover bg-no-repeat sm:h-[533px]">
+                <h2
+                    class="noto-serif pt-[110px] text-center text-[25px] text-[#FFFFFF] font-bold mb-[23px] sm:pt-[199px] sm:mb-[23px] sm:text-[50px]">
+                    Join the colorful Bunch</h2>
                 <div class="pb-[64.5px] flex justify-center">
-                    <input class="bg-[#FFFFFF] py-[15px] pl-[20px] mb-[]" type="email" name="" id="" placeholder="Write email">
-                    <button class="bg-[#E95A08] text-[1rem] text-[#FFFFFF] font-bold px-[12px] py-[19px]">Subscribe</button>
+                    <input class="bg-[#FFFFFF] py-[1rem] pl-[1.24rem] sm:w-[644px]" type="email" name="" id=""
+                        placeholder="Write email">
+                    <button
+                        class="bg-[#E95A08] text-[1rem] text-[#FFFFFF] font-bold px-[12px] py-[19px] sm:px-[53.5px] sm:py-[19px]">Subscribe</button>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="pl-[20px] text-[rgba(0,0,0,0.5)]">
-        <div class="pt-[50px]">
-            <img class="mb-[16px]" src="./assets/logo.png" alt="">
-            <p class="text-">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+    <footer class="pl-[20px] text-[rgba(0,0,0,0.5)] sm:pb-32">
+        <div class="pt-[50px] sm:flex sm:gap-[110px]"">
             <div>
-                <ul>
+                <img class="mb-[16px]" src="./assets/logo.png" alt="">
+                <p class="text-[16px] mb-[20px] mr-[30px]">Indulge your senses with the beauty and fragrance of our
+                    fresh flower shop. </p>
+            </div>
+
+            <div  class="sm:flex sm:gap-[110px]">
+                <ul class="grid gap-[32px] mb-[32px]">
                     <li><a href="">Home</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">FAQ</a></li>
                     <li><a href="">Contact Us</a></li>
+                </ul>
+                <ul class="grid gap-[32px]">
                     <li><a href="">Feature</a></li>
                     <li><a href="">Pricing</a></li>
                     <li><a href="">Privacy Policy</a></li>
                     <li><a href="">Terms of Service</a></li>
                     <li><a href="">Help Center</a></li>
                 </ul>
+
+
+                <div>
+                    <ul class="my-[20px] flex items-center gap-[30px]">
+                        <li><a href=""><img src="./assets/icon-linkedin.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/icon-twitter.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/icon-facebook.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/icon-youtube.png" alt=""></a></li>
+                    </ul>
+                </div>
             </div>
+
+
         </div>
     </footer>
 </body>
